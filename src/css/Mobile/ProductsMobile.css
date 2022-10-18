@@ -1,0 +1,38 @@
+/* Products */
+@media screen and (max-width: 428px) {
+    .products-bg{
+        background: url(../../components/Navigate/Home/background/stars1.png);
+    }
+      /* baskit btn and delete all product btn in products page*/
+      .products-top-btn{
+          width: 220px;
+        }
+        /* Products Card Parent*/
+        .card-grid-parent{
+          grid-template-columns: 1fr;
+        }
+        
+        .card-info{
+          background-color: rgb(46, 126, 166);
+          color: white;
+        }
+        
+}
+/* /Products */
+
+/* StoreBaskit */
+@media screen and (max-width: 428px) {
+.storeBaskit-bg{
+    background: url(../../components/Navigate/Home/background/stars2.png);
+    background-repeat: repeat-y;
+    height:fit-content;
+    background-color: #031829;
+    color: white;
+}
+
+.baskit-info{
+    border: 3px solid #2E7EA6;
+    background-color: transparent;
+    height: 450px;
+  }
+}

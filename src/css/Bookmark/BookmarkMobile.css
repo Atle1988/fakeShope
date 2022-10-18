@@ -1,0 +1,499 @@
+@media screen and (max-width: 325px) {
+    /* changed */
+    .bookmark-wrapper{
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    .bookmark-wrapper *{margin: 0;}
+    .bookmark-wrapper p, .extension-card small{
+        color: #ACABB0; 
+    }
+    :is(.bookmark-wrapper) a, p, button, strong{/* new */
+        font-size: 12px; /* new */
+    }
+    .bookmark-wrapper h1{-webkit-text-stroke: 1px transparent;}
+    
+    .bookmark-spacer{margin-top: 60px; /* changed */}
+    
+    .bookmark-wrapper button{
+        padding: 13px;
+        cursor: pointer;
+        background-color: transparent;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    
+    .bookmark-nav,
+    .bookmarkOne{
+        display: flex;
+    }
+    
+    .bookmarkOne-right,
+    .simplebookmarking,
+    .speedysearching,
+    .easilysharing{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 289px; /* changed */
+        min-height: 215px;/* changed */
+    }
+    
+    .bookmark-wrapper h1 ,h2 ,h4{
+        letter-spacing: .08rem;
+    }
+    
+    /* The nav bar */
+    .bookmark-nav{
+        padding-top: 32px; /* changed */
+        justify-content: space-around;
+    }
+    .bookmark-nav-left{
+        margin-right: 150px; /* changed */
+    }
+    
+    .bookmark-nav-right{
+        display: none; /* changed */
+    }
+    
+   /*  .bookmark-nav-right button{
+        border: 1px solid transparent;
+        position: relative;
+        top: -15px;
+        min-width: 110px;
+    } */
+    
+   /*  .bookmark-nav-right button:hover{
+        border: 1px solid #FC5A5A;
+    } */
+    
+    /* .bookmark-nav-right a{
+        text-decoration: none;
+    } */
+    
+   /*  .bookmark-nav-right a,
+    .bookmark-nav-right button{
+        font-size: 16px;
+        text-transform: uppercase; 
+        font-weight: 400;
+    } */
+    
+  /*   .bookmark-nav-right a:hover,
+    .bookmark-nav-right button:hover
+    {
+        cursor: pointer;
+        color: #FC5A5A;
+       
+    } */
+
+    /* /The Navbar */
+    
+    /* Section One*/
+    .bookmarkOne{
+        flex-direction: column-reverse; /* new */
+        align-items: center; 
+        justify-content: end;
+    }
+    
+    .bookmarkOne-left,
+    .features-right{
+        max-width: 275px; /* changed */
+        min-width: 275px; /* changed */
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* changed */
+    }
+    .bookmarkOne-left  h1,
+    .features-right h2{
+        max-width: 275px; /* changed */
+    }
+    
+    .bookmarkOne-left  p{
+        max-width: 275px; /* changed */
+    }
+    .bookmarkOne-left button{
+        margin-right: 0px; /* changed */
+        color: #605F6F;
+    }
+    .bookmarkOne-btn{ /* new */
+        display: flex; /* new */
+        justify-content: space-between; /* new */
+        max-height: 40px; /* new */
+    }
+    .bookmarkOne-left button:hover{
+        color: #5E67C3;
+        border-color: #5E67C3;
+    }
+    
+    
+    .bookmarkOne-right{
+        background-image: url(../../components/Navigate/Bookmark/images/bookmarkRight.png);
+        margin-bottom: 45px; /* new */
+    }
+    
+    /* features*/
+    
+    .features { 
+        max-width: 275px; /* new */
+        position: relative; /* new */
+        left: 50%; /* new */
+        transform: translateX(-50%); /* new */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; /* changed */
+    }
+    
+    .features p{ 
+        max-width: 450px;
+        text-align: center;
+    }
+    
+    .features-links{
+        display: flex;
+        flex-direction: column; /* changed */
+        margin-top: 35px;
+        border-bottom: 1px solid #ACABB0;
+    }
+    .features-links a{
+        padding-bottom: 16px; /* changed */
+        border-bottom: 3px solid transparent;
+        font-weight: 500;
+        text-decoration: none;
+        padding-top: 16px; /* new */
+        padding-left: 0px; /* changed */
+        padding-right: 0px;/* changed */
+        
+    }
+    .features-links a:hover{
+        cursor: pointer;
+        color:#FC5A5A;
+        border-bottom: 1px solid #FC5A5A; /* changed */
+    }
+    .feature-outlet{
+    display: flex;
+    flex-direction: column; /* changed */
+    align-items: center;
+    min-width: 100%;
+    }
+    
+    .simplebookmarking{
+        background-image: url(../../components/Navigate/Bookmark/images/bookmarkLeft.png);
+        margin-bottom: 45px; /* new */
+    }
+    .speedysearching{
+        background-image: url(../../components/Navigate/Bookmark/images/sharing-bookmarks.png);
+        margin-bottom: 45px; /* new */
+    }
+    .easilysharing{
+        background-image: url(../../components/Navigate/Bookmark/images/intelligent.png);
+        margin-bottom: 45px; /* new */
+    }
+    
+    .features-right{
+       min-width: 250px; /* changed */
+       margin-left: 0px; /* changed */
+    }
+    
+    .features-right p{
+        max-width: 250px;/* changed */
+        text-align: center; /* changed */
+    }
+    
+    :is(.features-right, .extension-card , .questions) button{
+        background-color: #5266DF;
+        color: #FFFFFF;
+        border: 1px solid transparent;
+    }
+    
+    :is(.features-right, .extension-card , .questions) button:hover{
+        background-color: #FFFFFF;
+        color: #5266DF;
+        border: 1px solid #5266DF;
+    }
+    
+    /* extension */
+    .extension{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px; /* changed */
+    }
+    
+    .extension p{
+        max-width: 227px; /* changed */
+        text-align: center;
+    }
+    
+    .extension-logoCards-wrapper{
+        display: flex;
+        flex-direction: column; /* new */
+        min-height: 230px; /* changed */
+        min-width: 280px; /* changed */
+        justify-content: space-between;
+        gap: 16px; /* changed or new */  
+    }
+    
+    .extension-card{
+        display: flex;
+        flex-direction: column;
+        gap: 15px; /* changed */
+        align-items: center;
+        box-shadow: 0 2px 5px 2px #e9ebf8cc;
+        max-height: 380px; /* changed */
+    }
+    .extension-card small{
+        font-size: 12px;
+    }
+    .extension-card svg{
+        margin: 0px 0 53px; /* changed */
+    }
+    .extension-card button{
+        min-width: 85%;
+    }
+    
+    #firefox{
+        position: relative;
+        top: 0px; /* changed */
+    }
+    #opera{
+        position: relative;
+        top: 0px; /* changed */
+    }
+    
+    /* Questions */
+    
+    .questions{
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .questions,
+    .questions *{
+        max-width: 275px; /* changed */
+        
+    }
+    
+    .questions > p{
+        text-align: center !important;
+        margin-top: 20px; /* changed */
+    }
+    
+    .questions > p,
+    .questions p,
+    .question-wrapper,
+    .bookmark-footer form{
+        max-width: 245px; /* changed */ 
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        text-align: start;
+    }
+    
+    .question-wrapper{
+        border-top: 1px solid #DDDDDD;
+        
+    }
+    .question-wrapper:first-child,
+    .questions{
+        margin-top: 60px; /* changed */ 
+        
+    }
+    .question-wrapper:last-child{
+        border-bottom: 1px solid #DDDDDD;
+    }
+    
+    
+    
+    
+    .questionOpen{
+        background-image: url('../../components/Navigate/Bookmark/images/icon-arrow.svg');
+        
+    }
+    .questionClose{
+        background-image: url('../../components/Navigate/Bookmark/images/icon-arraw-close.svg');
+        transform: rotate(180deg);
+    }
+    
+    .questionOpen,
+    .questionClose{
+        min-width: 18px;
+        min-height: 12px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    
+      
+    }
+    
+    .first,
+    .second,
+    .third,
+    .fourth{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;    
+    }
+    
+    .first strong,
+    .second strong,
+    .third strong,
+    .fourth strong{
+        font-weight: 500;
+    }
+    
+    .questions button{
+        margin: 40px 0 90px; /* changed */
+    }
+    
+    /* Footer */
+    .bookmark-footer *{
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .bookmark-footer > footer{
+        background-color: #5266DF;
+       
+    }
+    
+    .bookmark-footer footer:first-child{
+        padding-top: 60px; /* changed */
+    }
+    
+    
+    .bookmark-footer-ligthblue{
+        max-width: 254px; /* changed */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        gap: 15px; /* changed */
+    
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .bookmark-footer form{
+        display: flex;
+        flex-direction: column; /* new */
+        gap: 13px; /* changed */
+       }
+
+    .bookmark-footer small,
+    .bookmark-footer h2{
+        letter-spacing: 0.2rem;
+        font-weight: 900;
+    }
+    
+    
+    .bookmark-footer  form > button{
+       max-width: 250px; /* changed */
+       min-width: 250px; /* changed */
+       max-height: 40px; /* changed */
+       min-height: 40px; /* new */
+       background-color: #FC5A5A;
+       
+    }
+    .bookmark-footer  form > button:hover{
+        background-color: #FFFFFF;
+        border: 2px solid #FC5A5A;
+        color:#FC5A5A;
+    }
+    .bookmark-footer  form > input{
+        min-width: 240px; /* changed */
+        max-width: 240px; /* new */
+        min-height: 40px; /* new */
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        color: #242946;
+        text-transform: none;
+        font-size: 11px; /* new */
+        text-align: start;
+        text-indent: 10px;
+    }
+    .bookmark-footer  form > input:first-child{ /* new */
+        margin-bottom: 20px; /* new */
+    } 
+    
+    .form-completet{
+        border: 2px solid lime;
+        outline: 2px solid lime;
+        background-color: #000 !important;
+    
+    }
+    
+    .bookmark-input-error{
+        border: 2px solid #FC5A5A;
+        outline: 2px solid #FC5A5A;
+        background-image: url('../../components/Navigate/Bookmark/images/icon-error.svg');
+        background-repeat: no-repeat;
+        background-position:calc(203px); /* changed */
+        
+    }
+    .bookmarkInput-error{
+        max-width: 252px; /* changed */
+        border-radius: 0 0 5px 5px;
+        background-color: #FC5A5A;
+        text-indent: 5px;
+        text-align: start;
+        position: relative;
+    
+        top: -95px; /* changed */
+        left: 3px; /* changed */
+        font-size: 9px;
+        font-weight: 700;
+        padding: 5px 0;
+    }
+    .bookmark-footer-dark{
+        background-color: #242946;
+        margin-top: 32px; /* changed */
+        min-height: 271px; /* changed */
+       
+        display: flex;
+        flex-direction: column; /* changed */
+        justify-content: space-around;
+        align-items: center;
+    }
+    .bookmark-footer-dark svg{
+        position: relative;
+        top: 0px; /* changed */
+    }
+    
+    .bookmark-footer-dark a{
+        margin-top: 30px; /* new */
+        display: flex; /* new */
+        flex-direction: column; /* new */
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-left: 0; /* changed */
+        font-size: 13px;
+    
+    }
+    .bookmark-footer-dark-left a:nth-child(2){
+        margin-left: 0; /* changed */
+    }
+    .bookmark-footer-dark-right a:nth-child(2){
+        margin-left: 0; /* changed */
+    }
+    .bookmark-footer-dark a:hover{
+        color: #FC5A5A;
+    }
+    
+    .bookmark-footer-dark-facebook-icon:hover,
+    .bookmark-footer-dark-twitter-icon:hover{
+        fill: #FC5A5A;
+    }
+    
+    .bookmark-footer-dark-right{ /* new */
+        display: flex; /* new */
+        justify-content: space-between; /* new */
+        align-items: center; /* new */
+
+        min-width: 75px; /* new */
+    }
+    
+}

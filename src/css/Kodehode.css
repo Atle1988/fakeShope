@@ -1,0 +1,45 @@
+
+/* Employers of Kodehode */
+.employer-bg{
+  height: 93.7vh;
+  background: url(../components/Navigate/Home/background/green.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity: 0.9;
+}
+.employer-bg > h1{
+  color: white;
+}
+.employer-bg > *{
+ text-shadow: -2px 2px 10px white;}
+
+.employer-a{
+  position: relative;
+  top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+   
+  }
+  .employer-a > a{
+    position: relative;
+    top: 2rem;
+    text-decoration: none;
+    font-family: fantasy;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .employer-a > a:hover{
+    transform: scale(135%);
+    color: white;
+    text-shadow: 1px 1px 5px yellowgreen;
+  }
+  .employer-outlet{
+    position: relative;
+    top: 15%;
+  }
+  
+  .capitalize{
+    text-transform: capitalize;
+  }

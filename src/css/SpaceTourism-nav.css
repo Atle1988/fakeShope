@@ -1,0 +1,82 @@
+.main-nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 96px;
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+}
+.main-nav-span{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin-right: 11px;
+}
+
+.main-nav-logo{
+   z-index: 1;  
+   padding-left: 55px;
+   padding-right: 24px;
+   cursor: pointer;
+ 
+}
+.main-nav-hr{
+    position: relative;
+    /* min-width: 533px; */
+    width: 100%;
+    left: 40px;
+    z-index: 2;
+    border: 1px solid #979797;
+    
+}
+
+/* Main NAV (home, destination, crew, technology) */
+.main-nav{
+    position: relative;
+/* border: 1px solid red; */
+/* min-width: 51.87rem; */
+
+height: 96px;
+/* padding: 2.3rem; */
+/* top: 6.56rem; */
+display: flex;
+justify-content: space-between;
+padding: 0 48px;
+align-items: center;
+background-color: #1B1B26;
+backdrop-filter: blur(40.7742px);
+z-index: 1;
+}
+
+.main-nav > a{
+    color: #FFFFFF;
+    text-decoration: none;  
+    position: relative;
+    top: 20px;
+    height: 55px;  
+    text-transform: uppercase;
+}
+.main-nav a:hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.258);
+}
+.main-nav a:focus{
+    border-bottom: 3px solid white;
+}
+
+.show-burger,
+.hide-burger{display:  none;}
+/* -------------------------------- Main NAV (home, destination, crew, technology) */
+
+
+
+
+

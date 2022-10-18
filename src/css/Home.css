@@ -1,0 +1,104 @@
+html{
+  margin: 0;
+  text-align: center;
+  scroll-behavior: smooth;  
+ /*  font-size: calc(10px + 2vmin); */
+ 
+}
+
+a{
+  color: #252525;
+}
+.startWrapper{
+  background-repeat: no-repeat;
+  background-size:cover;
+
+  position: relative;
+  top: -1px;
+  padding: 1px;
+}
+.home-bg{
+  background: url(../components/Navigate/Home/background/blob-scene-haikei.png);
+  height: 93.7vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.homeLinks{
+  height: 100px;
+  width: 200px;
+
+  background-color: #536050;
+  padding: 30px;
+  border-radius: 20% 70% 30% 80%;
+  box-shadow: -5px 10px 30px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.homeLinks a{
+  color: rgb(227, 104, 52);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.homeLinks a:hover{
+  transform: scale(110%);
+  text-decoration:underline;
+  color:white;
+}
+
+/* .App {
+  background-color: purple;
+  height: 100vh;
+  min-width: 1380px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.nav > a,
+.home-link > a 
+ {
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav > a:hover,
+.home-link > a:hover{
+color: purple;
+text-decoration: underline;
+}
+
+h1{
+  -webkit-text-stroke: 2px #252525;
+}
+.nav{
+  background-color: rgb(199, 197, 197);
+  padding: 8px;
+  position: relative;
+  top: -1px;
+  border-bottom: 2px solid #252525;
+  /* min-width: 1380px; */
+ 
+ 
+
+}
+
+
+
+/* Error Page */
+.pageNotFound{
+  background-color: red;
+  height: 100vh;
+  position: relative;
+  top: -80px;
+  text-align: center;
+}

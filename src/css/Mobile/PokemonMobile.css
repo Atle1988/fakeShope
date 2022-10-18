@@ -1,0 +1,28 @@
+@media screen and (max-width: 428px) {
+    .pokemon-bg{
+             background-image: none;
+        background: linear-gradient(162.08deg, #CF4A81 13.88%, #FFF5F9 47.4%, #CF4A81 89.8%);
+      }  
+   
+ 
+      .flex-center{
+        width: 80%;
+        position: relative;
+        left: 50px;
+      }
+
+      .flex-center  img {
+        width: 200px;
+      }
+
+      .flex-center > button
+      {
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+      }
+     
+      .flex-center-pokename{
+        color: white;    
+      }
+}

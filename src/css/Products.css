@@ -1,0 +1,133 @@
+.products-bg{
+  background: url(../components/Navigate/Home/background/stars1.png);
+  background-repeat: repeat-y;
+
+  background-color: #031829;
+  color: white;
+}
+.products-bg > h1{
+  text-shadow: -2px 2px 30px white;
+  -webkit-text-stroke: 1px white;
+  letter-spacing: 0.2rem;
+  color: rgb(46, 126, 166);
+}
+
+/* baskit btn and delete all product btn in products page*/
+.products-top-btn{
+    width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    
+    justify-content: space-around;
+  }
+  /* Products Card Parent*/
+  .card-grid-parent{
+    display: grid;
+    width: 55%;
+   
+    justify-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 20px;
+  }
+  
+  .card-info{
+    background-color: #C7C5C5;
+    color: #252525;
+    font-size: 16px;
+    width: 220px;
+    max-height: 430px;
+    border-radius: 10px;
+   
+    border: 2px solid #252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-info-section-top{
+    max-width: 100%;
+    min-height: 210px;
+    max-height: 210px;
+  }
+  .card-info-section-top > img{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px 10px 0 0;
+  }
+  .card-info-section-bottom{
+  text-align: start;
+  padding: 10px
+  }
+  /* Shopping Baskit */
+  .baskit-info{
+    background-color: #2E7EA6;
+    height: 450px;
+  }
+  .baskit-info > h6{
+    margin: 0;
+  }
+  .baskit-info > .card-info-section-top > img {
+    border-radius: 0;
+  }
+  
+  
+  .shoppingCardBtn{
+    background-color: #2ca755;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+  
+    font-size: 16px;
+  }
+  .shoppingCardBtn:hover{
+    background-color: #317347;
+  }
+  
+  .addToCardBtn{
+    background-color: #276dd6;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .addToCardBtn:hover{
+    background-color: #0B5ED7;
+  }
+  .addToCardBtn:active{
+    box-shadow: 0 0 50px white;
+  }
+  .deleteCardBtn{
+    background-color: darkred;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  .deleteCardBtn:hover{
+    background-color: red;
+  }
+  
+  .orderBtn{
+    background-color: #0b2235;
+    border: 1px solid #252525;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color:white;
+  }
+  
+  .orderBtn:hover{
+    background-color: #317347;
+  }

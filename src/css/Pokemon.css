@@ -1,0 +1,87 @@
+.pokemon-bg{
+  position: relative;
+  padding-top: 20px;
+  height: 93.7vh;
+  background-image: url(../components/Navigate/Home/background/snorlax2.png);
+}  
+.pokemon-list {
+width: fit-content;
+position: relative;
+left: 50%;
+transform: translate(-50%, 20px);
+cursor: pointer;
+}
+.pokemon-list > h5:hover{
+color:#e95353;
+transform:scale(110% );
+}
+.pokemon-list > ol{
+  text-align: start;
+  text-transform:capitalize;
+  font-weight: 600;
+}
+.pokemon-list > ol > li:nth-child(odd){
+  color:#e95353;
+  font-weight: 600;
+}
+.pokemon-list > ol > li:hover{
+  transform: scale(110%);
+  
+}
+.pokemon-list > ol > li::selection{
+  background-color: yellow;
+  color: #252525;
+}
+
+
+.pokemon-list > h5{
+  text-align: start;
+  font-size: 20px;
+  margin: 0;
+}
+input{
+  margin-left: 5px;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+input:focus{
+  background-color: #ee6868;
+  font-weight: 900;
+}
+input::selection{
+  background-color: yellow;
+  color:purple;
+}
+.flex-center{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.flex-center  img {
+  width: 330px;
+}
+.flex-center > button{
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ee6868;
+  font-weight: 600;
+  cursor: pointer;
+}
+.flex-center > button:active{
+  box-shadow: 0 0 30px white;
+}
+.flex-center-pokename{
+  color: #ee6868;
+  text-shadow: 1px 1px 20px black;
+  text-transform: uppercase;
+  font-family: fantasy;
+  position: absolute;
+  left: 50%;
+  font-weight: 600;
+  font-size: 32px;
+  transform: translate(-50%, -2%);
+
+}
+  

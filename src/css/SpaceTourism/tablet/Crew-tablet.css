@@ -1,0 +1,128 @@
+@media screen and (max-width:  929px) and (min-width: 738px){
+    .crew-bg{
+       background-image: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/crew/background-crew-tablet.jpg);
+        color: #D0D6F9;
+        font-family: 'Barlow Condensed';
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .crew-bg *{ 
+        margin: 0;
+    }
+
+    .crew-bg h3{
+        text-align: start;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin: 40px 0 60px 38.5px;
+
+    }
+    .crew-span{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        letter-spacing: 3.375px;
+
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+        margin: 0 16px 60px 38.5px;
+    }
+
+    .crew-bg  article {
+        max-width: 458px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .crew-bg article h2{
+        font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 8px;
+    }
+
+    .crew-bg article h1{
+        font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px transparent;
+    margin-bottom: 16px;
+    }
+
+    .crew-bg article p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 90px;
+    }
+
+    .douglashurley-img{
+        left: 60%;
+        background-size: 80%;
+        background-image: url('../../../components/Navigate/SpaceTourism/SpaceTourism/assets/crew/DouglasHurleyImage.png');}
+    .markshuttleworth-img{
+        left: 55%;
+        background-size: 75%;
+        background-image: url('../../../components/Navigate/SpaceTourism/SpaceTourism/assets/crew/MarkShuttleworthImage.png');}
+        
+    .victorglover-img{
+        left: 50%;
+        background-size: 90%;
+        background-image: url('../../../components/Navigate/SpaceTourism/SpaceTourism/assets/crew/VictorGloverImage.png');}
+    .anoushehansari-img{
+        left: 50%;
+        background-size: cover;
+        background-image: url('../../../components/Navigate/SpaceTourism/SpaceTourism/assets/crew/AnoushehAnsariImage.png');}
+
+    .douglashurley-img,
+    .markshuttleworth-img,
+    .victorglover-img,
+    .anoushehansari-img{
+        max-width: 540px;
+        min-height: 572px;
+        background-repeat: no-repeat;
+        position: relative;
+        transform: translateX(-50%);
+    }
+
+    .dotted_links{
+        position: absolute;
+        top: 32rem;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 88px;
+        min-height: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .dotted_links a {
+        text-decoration: none;
+        mix-blend-mode: normal;
+        opacity: 0.17;
+        color: white;
+
+    }
+
+    .dotted_links a:focus{
+        opacity: 1;
+    }
+ 
+
+
+}
