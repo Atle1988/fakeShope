@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/project-page/static/css/main.cad6caad.css",
-    "main.js": "/project-page/static/js/main.3db3d62b.js",
+    "main.js": "/project-page/static/js/main.4136c69b.js",
     "static/js/787.28cb0dcd.chunk.js": "/project-page/static/js/787.28cb0dcd.chunk.js",
     "static/media/snorlax2.png": "/project-page/static/media/snorlax2.3a99eb25b2caa26992c0.png",
     "static/media/VictorGloverImage.png": "/project-page/static/media/VictorGloverImage.8a9a5424588b73ec61c2.png",
@@ -46,11 +46,11 @@
     "static/media/icon-arrow.svg": "/project-page/static/media/icon-arrow.6a77471d7b7f9b4d136e.svg",
     "static/media/icon-arraw-close.svg": "/project-page/static/media/icon-arraw-close.b27c7121c3b84d48c361.svg",
     "main.cad6caad.css.map": "/project-page/static/css/main.cad6caad.css.map",
-    "main.3db3d62b.js.map": "/project-page/static/js/main.3db3d62b.js.map",
+    "main.4136c69b.js.map": "/project-page/static/js/main.4136c69b.js.map",
     "787.28cb0dcd.chunk.js.map": "/project-page/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cad6caad.css",
-    "static/js/main.3db3d62b.js"
+    "static/js/main.4136c69b.js"
   ]
 }
