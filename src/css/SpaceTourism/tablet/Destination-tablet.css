@@ -1,0 +1,169 @@
+@media screen and (max-width:  929px) and (min-width: 738px) {
+    .main-nav{
+        padding: 0;
+    }
+    .main-nav a{
+        margin: 0 10px;
+    }
+    .main-nav-span{
+        display: none;
+    }
+    .destination-bg{
+        background-image: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/background-destination-tablet.jpg);
+        font-family: 'Barlow Condensed';
+        color: #D0D6F9;
+        padding-bottom: 58px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .destination-bg *{
+        margin: 0;
+    }
+    /* PlanetModuel */
+    .destination-bg h3{
+    text-align: start;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin-top: 32px;
+    text-transform: uppercase;
+    margin: 40px 0 60px 38.5px;
+    }
+
+    .destination-01-span{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+
+        letter-spacing: 3.375px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.25;
+    }
+
+    .planet-flex .flex-row{
+        display: flex;
+        border-top: 1px solid #383B4B;
+        max-width: 573px;
+        min-height: 90px;
+        position: relative;
+
+        left: 50%;
+        transform: translateX(-50%);
+        justify-content:space-around;
+        align-items: flex-end;
+        
+    }
+
+    .planet-nav{
+        position:absolute;
+        top: 40rem;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2.12rem;
+        min-width: 17.87rem;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+    }
+
+    .planet-nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+    }
+
+    .moon-img,
+    .mars-img,
+    .europa-img,
+    .titan-img{
+        max-width: 300px;
+        min-height: 300px;
+        position: relative;
+        left: 50%;
+        background-repeat: no-repeat;
+        transform: translateX(-50%);
+        margin-bottom: 109px;
+    }
+
+    .moon-img{ 
+        background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-moon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mars-img{ 
+        background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-mars.png); 
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .europa-img{
+        background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-europa.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .titan-img{ 
+        background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-titan.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .planet-nav  a:focus{
+        text-decoration: none;
+        border-bottom: 3px solid #D0D6F9;
+    }
+
+    .destination-bg article *{ text-align: center; }
+
+    .destination-bg h1 {
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 92px;
+        color: #FFFFFF;
+        margin: 0 0 8px 0;
+        text-transform: uppercase;
+    }
+
+    .destination-bg article p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        max-width: 573px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 49px;
+    }
+
+    .destination-bg hr{ display: none; }
+
+    .destination-bg h4{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    .flex-row p{
+        margin: 0 0 12px;
+        font-size: 14px;
+        line-height: 17px;
+
+        text-align: center;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase;
+
+        color: #D0D6F9;
+    }
+}

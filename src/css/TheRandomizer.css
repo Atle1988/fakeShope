@@ -1,0 +1,100 @@
+.randomPicker-bg{
+    background: url(../components/Navigate/Home/background/bobble.png);
+    min-height: 93.7vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.randomPicker-bg > * {
+    letter-spacing: 0.08rem;
+}
+.randomPicker-bg > input{
+    border-radius: 0;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+
+.randomPicker-bg > button{
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+
+    background-color: #F07639;
+    border: 1px solid white;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+#randomBtn{
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 10px 50% 10px;
+    
+    box-shadow: 1px 1px 10px white;
+}
+
+.winner{
+    font-family: fantasy;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #F07639;
+}
+
+.randomPicker-bg > footer{
+    position: relative;
+    width: fit-content;
+    text-align: start;
+    padding: 10px;
+    left: 40%;
+    top: 5%;
+
+    border: 2px solid;
+    border-radius: 20px 0 20px 0;
+    border-left: dotted;
+    border-left-color: #F07639;
+    border-right: dotted;
+    border-bottom-color: #F07639;
+    box-shadow: 1px 2px 30px white;
+
+    transform: translate(-50%, 0);
+    transform: skewX(-10deg);
+}
+
+.name-list > ol {
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    text-transform: capitalize;
+    text-align: start;
+    text-indent: 10px;
+    line-height: 1.5rem;
+}
+.name-list > ol > li > button{
+    color:white;
+    font-weight: 900;
+    text-shadow: -1px 1px black;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+    border-radius: 50%;    
+}
+
+.randomPicker-bg > button,
+.name-list > ol > li > button
+{cursor: pointer;}
+
+.section-list{
+    margin: 60px 0;
+}
+
+
+/* ----------------- Mobile ------------------*/
+@media screen and (max-width: 428px) {
+    .randomPicker-bg > footer{ 
+        left: 25%;
+    }
+}

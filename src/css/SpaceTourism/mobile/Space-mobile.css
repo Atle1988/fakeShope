@@ -1,0 +1,99 @@
+@media screen and (max-width: 737px) and (min-width: 375px){
+    .space-bg{
+    background-image: url('../../../components/Navigate/SpaceTourism/SpaceTourism/assets/home/background-home-mobile.jpg');
+    background-repeat: no-repeat;
+    color: #D0D6F9;
+ 
+    font-family: 'Barlow Condensed';
+    background-size: cover;
+    padding-bottom: 64px;
+}
+
+.space-bg > main{
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+}
+
+.space-bg *{
+    margin: 0;
+}
+
+.space-bg h3,
+.space-bg h1{
+    margin-bottom: 16px;
+}
+.space-bg h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2.7px;
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+.space-bg h1{
+    -webkit-text-stroke: 1px transparent;
+    font-family: 'Bellefair';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.space-bg p{
+    margin-bottom: 81px;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    max-width: 327px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: normal;
+  
+}
+
+.space-explore-btn{
+   
+    max-height: 150px;
+    max-width: 150px;
+    min-width: 145px;
+    min-height: 145px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    top: 0;
+    color: #0B0D17;
+}
+
+.space-explore-btn > p{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.25px;
+    color: #0B0D17;
+    min-width: 145px;
+    min-height: 145px;
+    border: 3px solid transparent;
+    
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+}
+
+.space-explore-btn:hover{
+    background-color: rgba(212, 208, 208, 0.119);
+       cursor: pointer;
+   }
+}

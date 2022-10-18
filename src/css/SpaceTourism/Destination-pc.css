@@ -1,0 +1,186 @@
+@media screen and (max-width: 2900px) and (min-width: 930px) {
+    .destination-bg{
+        background-image: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/background-destination-desktop.jpg);
+        font-family: 'Barlow Condensed';
+        color: #D0D6F9;
+        padding-bottom: 338px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .destination-bg *{
+        margin: 0;
+    }
+    
+    .destination-bg  h3{
+        position: relative;
+        top: 41px;
+        left:10.5%;
+        
+        height: 34px;
+        max-width: 285.5px;
+     
+        text-align: start;
+        
+        max-width:fit-content;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        margin-bottom: 97px;
+    }
+
+    .destination-01-span{
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        
+        color: #FFFFFF;
+        opacity: 0.25; 
+    }
+    
+    .planet-flex{
+        display: flex;
+        flex-direction: row;
+       
+        max-width: 1047px;
+        min-width: 1047px;
+        min-height: 405px;
+
+        position: relative;
+        left: 50%;
+        top: 64px;
+        transform: translateX(-50%);
+    }
+
+    .planet-flex article > p{ margin-bottom: 54px; }   
+
+    .planet-flex .flex-row{
+        border-top: 1px solid #383B4B;
+        min-width: 445px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+   .planet-flex .flex-row p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase;
+        padding-top: 28px;
+    }
+
+   .planet-flex .flex-row h4{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+        margin-top: 12px;
+    }
+
+   .planet-flex  article {
+        max-width: 445px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: start;
+    }
+  
+
+    .planet-nav{
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+
+        top: 174px;
+        left:50.5%;
+        
+        height: 34px;
+        max-width: 285.5px;
+        display: flex;
+
+        z-index: 1;        
+    }
+
+    .planet-nav a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+    }
+    
+    .planet-nav a:focus{
+        text-decoration: none;
+        border-bottom: 3px solid #D0D6F9;
+    }
+
+
+    .destination-bg  h1{
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 115px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0px;
+        text-align: start;
+        min-width: 100%;
+      
+    }
+    
+    .destination-bg p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .destination-bg hr{ display: inline-block; }
+    
+    .mars-img,
+    .moon-img,
+    .titan-img,
+    .europa-img{
+        position: relative;
+        min-width: 370px;
+        max-height: 370px;
+        margin-right: 157px; 
+        top: 33px;      
+    }
+    
+    .moon-img{
+        background-image: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-moon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .titan-img{
+        background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-titan.png);
+        background-size: cover;
+        background-repeat: no-repeat;   
+    }
+
+    .mars-img{
+        background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-mars.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+    .europa-img{
+        background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/destination/image-europa.png);
+        background-size: cover;
+        background-repeat: no-repeat;     
+    } 
+}

@@ -1,0 +1,152 @@
+
+@media screen and (max-width:  929px) and (min-width: 738px) {
+       
+        .main-nav-hr{
+            display: none;
+        }
+        .main-nav-flex{
+            padding-left: 38px;
+        }
+    
+        .main-nav-span{
+          display: none;
+        }
+    /* ----------------------------- */
+        
+        /* Main NAV (home, destination, crew, technology) */
+       
+          .main-nav-hamburger{
+            display: none;
+        }
+        
+     
+       
+        
+      /* ----------------------------- */
+        
+    
+      .technology-wrapper{
+            background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/background-technology-tablet.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #D0D6F9;
+            font-family: 'Barlow Condensed';
+            padding-bottom: 97px;
+        }
+        .technology-wrapper *{
+            margin: 0;
+        }
+        .technology-span{
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+        
+            letter-spacing: 3.375px;
+        
+            color: #FFFFFF;
+        
+            mix-blend-mode: normal;
+            opacity: 0.25;
+        }
+        .circle-nav{
+            display: flex;
+            min-width: 210px;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 60px;
+            min-height: 60px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 40rem;
+          }
+
+        .circle-nav a{
+            color:white;
+            
+            border: 1px solid #ffffff2e;
+            border-radius: 50%;
+            padding: 20px 25px;
+            text-decoration: none; 
+            margin-left: 16px;
+           
+        }
+        .circle-nav a:focus{
+            background-color: white;
+            color: black;
+        }
+        
+        .technology-flex{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+       
+    
+        .technology-wrapper h3{
+            margin: 40px 0 60px 38.5px;
+            text-align: start;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 2.7px;
+            text-transform: uppercase;
+    
+            color: #FFFFFF;
+        }
+    
+        .technology-section-left > p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 17px;
+            
+            text-align: center;
+            letter-spacing: 2.7px;
+            
+            color: #D0D6F9;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+        .technology-section-left > article > h1{
+            margin-bottom: 16px;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 46px;
+    
+            text-align: center;
+            text-transform: uppercase;
+            -webkit-text-stroke: 1px transparent;
+            color: #FFFFFF;
+        }
+    
+        .technology-section-left > article > p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+
+            max-width: 458px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+
+        }
+    
+        .launchvehicle-img{ background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-launch-vehicle-landscape.jpg); }
+        .spaceport-img{ background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-spaceport-landscape.jpg); }
+        .spacecapsule-img{ background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-space-capsule-landscape.jpg); }
+    
+        .launchvehicle-img,
+        .spaceport-img,
+        .spacecapsule-img{
+            max-width: 765px;
+            min-height: 310px;
+      
+            background-size: contain;
+           background-repeat: no-repeat;
+           margin-bottom: 160px;
+        }
+    
+    
+    } 
+
+  

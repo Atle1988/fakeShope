@@ -1,0 +1,83 @@
+@media screen and (max-width: 428px) {
+ 
+  .flex{
+    flex-direction: column;
+  }
+
+  form  .flex{
+    flex-direction: row;
+  }
+
+
+  .firstCard-number{
+    font-size: 1.3rem;
+  }
+
+  .firstCard-name-and-date{
+    width: 17.87rem;
+    top: 90px;
+    left: 35px;
+    font-size: 0.68rem;
+  }
+
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-left{
+    min-width: 100%;
+    height: 17.43rem;
+  }
+
+  .section-right{
+    left: 0px;
+    top: 300px;
+    height:fit-content;
+  }
+
+
+  .firstCard,
+  .secondCard{
+    width: 20.93rem;
+    height: 11.37rem;
+  }
+
+  .firstCard{
+    position: absolute;
+    margin-top: 190px;
+    z-index: 1;
+    left: 5%;
+  }
+
+  .firdstCard-largeCircle{
+  width: 2.18rem;
+  height: 2.18rem;
+  }
+
+  .firdstCard-smallCircle{
+  width: 1.06rem;
+  height: 1.06rem;
+  }
+
+  .secondCard{
+    position: absolute;
+    left: 17%;
+    }
+
+    .secondCard-greyStripe{
+      width: 17.75rem;
+    }
+
+    .secondCard-lorem{
+      display: none;
+    }
+
+  .card-form{
+    position: relative;
+    left: 50%;
+    top: -160px;
+    transform: translateX(-50%);
+  }
+
+  }

@@ -1,0 +1,165 @@
+@media screen and (max-width: 2900px) and (min-width: 930px){
+    
+    .main-nav-flex{
+        margin-left: 39px;
+    }
+
+    .main-nav-span{
+       display: inline-block;
+       margin-left: 32px;
+       margin-right: 11px ;
+       font-weight: 700;
+       color: #FFFFFF;
+    }
+/* ----------------------------- */
+    
+    /* Main NAV (home, destination, crew, technology) */
+   
+    
+    .show-burger,
+    .hide-burger{
+       display: none;
+    }
+    
+  /* ----------------------------- */
+    
+
+  .technology-wrapper{
+        background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/background-technology-desktop.jpg);
+        color: #D0D6F9;
+        font-family: 'Barlow Condensed';
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 309px;
+    }
+    .technology-wrapper *{
+        margin: 0;
+
+    }
+    .outlet-wrapper{
+        min-width: 400px;
+        min-height: fit-content;
+        text-align: start;
+    }
+    .main-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        max-width: 1415px;
+        
+        position: relative;
+        top: 76px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .circle-nav{
+        display: flex;
+        flex-direction: column;
+        min-width: 80px;
+        justify-content: space-between;
+        align-items: center;
+
+        box-sizing: border-box;
+        min-height: 223px;
+        position: relative;
+        margin-left: 124px;
+        margin-right: 80px;
+        
+   
+
+    }
+    .circle-nav a{
+        color:white;
+        
+        border: 1px solid #ffffff2e;
+        border-radius: 50%;
+        padding: 30px 35px;
+        text-decoration: none;
+       
+       
+    }
+    .circle-nav a:focus{
+        background-color: white;
+        color: black;
+    }
+    
+    .technology-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .technology-span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.25;
+       
+    }
+
+    .technology-wrapper h3{
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+
+        color: #FFFFFF;
+        position:absolute;
+        left: 150px;
+        text-transform: uppercase;
+       
+    }
+
+    
+    .technology-section-left{
+        max-width: 490px;
+        min-width: 490px;
+        margin-right: 130px;
+    }
+
+    .technology-section-left > p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+
+        color: #D0D6F9;
+       text-transform: uppercase;
+    }
+    .technology-section-left h1{
+       font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        min-width: 100%;
+        color: #FFFFFF;
+        margin-bottom: 17px;
+        -webkit-text-stroke: 1px transparent;
+        text-transform: uppercase;
+       
+    }
+
+    .technology-section-left  article > p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #D0D6F9;
+    }
+
+    .launchvehicle-img{ background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-launch-vehicle-portrait.jpg); }
+    .spaceport-img{ background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-spaceport-portrait.jpg); }
+    .spacecapsule-img{ background: url(../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-space-capsule-portrait.jpg); }
+
+    .launchvehicle-img,
+    .spaceport-img,
+    .spacecapsule-img{
+        min-width: 515px;
+        min-height: 527px;
+        background-size: contain;
+        background-repeat: no-repeat;       
+    }
+}

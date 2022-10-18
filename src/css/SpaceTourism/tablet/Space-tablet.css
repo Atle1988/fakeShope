@@ -1,0 +1,63 @@
+@media screen and (max-width:  929px) and (min-width: 738px){
+  
+    .space-bg{
+        background-image: url('../../../components/Navigate/SpaceTourism/SpaceTourism/assets/home/background-home-tablet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 90px;
+}
+    .space-bg *{margin: 0;
+        color: #D0D6F9;
+        font-family: 'Barlow Condensed';}
+
+    .space-bg main{
+        max-width: 445px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+    }
+    
+    .space-bg h3{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        letter-spacing: 3.375px;
+        margin: 106px 0 24px;
+    }
+    .space-bg h1{
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 150px;
+      
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+    .space-bg > main{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .space-explore-btn{
+        max-width: 242px;
+        min-height: 242px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top:156px;;
+    }
+    .space-explore-btn  p{
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 2px;
+        color: #0B0D17;
+    }
+
+}

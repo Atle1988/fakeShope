@@ -1,0 +1,94 @@
+@media screen and (max-width: 2900px) and (min-width: 930px){
+    
+.main-nav > a{  
+    display: flex;
+    justify-content: space-between;
+    margin-right: 48px;
+}
+
+.space-bg{
+    background-image: url('../../components/Navigate/SpaceTourism/SpaceTourism/assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 203px;
+    font-family: 'Barlow Condensed';
+    color: #D0D6F9;
+}
+.space-bg  *{
+    margin: 0;
+}
+.main-nav-span{ margin-right: 11px;}
+
+.space-bg > main{
+    max-width: 450px;
+    position: relative;
+   
+    
+    display: flex;
+    align-items: flex-end;
+    margin-top: 251px;
+    margin-left: 165px;
+}
+
+.space-bg > article{
+    min-width: 450px;
+    max-height: 382px;
+}
+
+.space-bg h3{
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+letter-spacing: 4.725px;
+margin-bottom: 24px;
+
+}
+.space-bg h1{
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.space-bg p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.space-explore-btn{
+    margin-left: 21.5vw;
+    border-radius: 50%;
+    min-width: 350px;
+    min-height: 350px;
+    position: relative;
+    top: 55px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.space-explore-btn > p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: 2px;
+
+    min-width: 245px;
+    min-height: 245px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0B0D17;
+    background-color: #FFFFFF;
+}
+
+.space-explore-btn:hover{
+ background-color: rgba(212, 208, 208, 0.119);
+    cursor: pointer;
+}
+}

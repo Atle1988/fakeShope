@@ -1,0 +1,174 @@
+@media screen and (max-width: 737px) and (min-width: 375px) {
+    .main-nav{
+        display: none;
+    }
+    .main-nav-hr{
+        display: none;
+    }
+    .main-nav-flex{
+        margin-left: 39px;
+    }
+
+    .main-nav-span{
+       display: inline-block;
+       margin-left: 32px;
+       margin-right: 11px ;
+       font-weight: 700;
+       color: #FFFFFF;
+    }
+/* ----------------------------- */
+    
+    /* Main NAV (home, destination, crew, technology) */
+   
+      .main-nav-hamburger{
+        width: 254px;
+        min-height: 737px;
+        position: relative;
+        top: 320px;
+        
+        background: rgba(0, 0, 0, 0.477);
+        backdrop-filter: blur(9px);
+        
+        display: flex;
+        flex-direction: column;
+        
+        z-index: 2;
+        
+        text-align: start;
+    }
+    .main-nav-hamburger a{
+        color: #FFFFFF;
+      
+        position: relative;
+        top: 118px;
+        margin-bottom: 32px;
+        text-decoration: none;
+        left: 32px;
+        letter-spacing: 2.7px;
+    }
+    .show-burger,
+    .hide-burger{
+        display: inline-block;
+        position: absolute;
+        z-index: 3;
+        right: 10px;
+        top: 101px;
+    }
+    
+  /* ----------------------------- */
+    
+
+  .technology-wrapper{
+        background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/background-technology-mobile.jpg);
+        color: #D0D6F9;
+        font-family: 'Barlow Condensed';
+    }
+    .technology-wrapper *{
+        margin: 0;
+
+    }
+
+    .circle-nav{
+        display: flex;
+        min-width: 152px;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 40px;
+        min-height: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 444px;
+
+    }
+    .circle-nav a{
+        color:white;
+        
+        border: 1px solid #ffffff2e;
+        border-radius: 50%;
+        padding: 10px 15px;
+        text-decoration: none;
+        margin-left: 16px;
+       
+    }
+    .circle-nav a:focus{
+        background-color: white;
+        color: black;
+    }
+    
+    .technology-flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .technology-span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+
+        color: #FFFFFF;
+
+        mix-blend-mode: normal;
+        opacity: 0.25;
+       
+    }
+
+    .technology-wrapper h3{
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .technology-section-left > p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        
+        text-align: center;
+        letter-spacing: 2.3625px;
+        
+        color: #D0D6F9;
+        margin-bottom: 6px;
+    }
+    .technology-section-left > article > h1{
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px transparent;
+        color: #FFFFFF;
+    }
+
+    .technology-section-left > article > p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .launchvehicle-img{ background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology//image-launch-vehicle-landscape.jpg); }
+    .spaceport-img{ background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-spaceport-landscape.jpg); }
+    .spacecapsule-img{ background: url(../../../components/Navigate/SpaceTourism/SpaceTourism/assets/technology/image-space-capsule-landscape.jpg); }
+
+    .launchvehicle-img,
+    .spaceport-img,
+    .spacecapsule-img{
+        width: 374px;
+        min-height: 170px;
+        background-size: contain;
+       background-repeat: no-repeat;
+       margin-bottom: 100px;
+       
+    }
+
+
+} 
