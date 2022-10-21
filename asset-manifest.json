@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-page/static/css/main.34b8ad8d.css",
-    "main.js": "/project-page/static/js/main.0a6fe9c7.js",
+    "main.css": "/project-page/static/css/main.c6b406e9.css",
+    "main.js": "/project-page/static/js/main.d0416df7.js",
     "static/js/787.28cb0dcd.chunk.js": "/project-page/static/js/787.28cb0dcd.chunk.js",
     "static/media/snorlax2.png": "/project-page/static/media/snorlax2.3a99eb25b2caa26992c0.png",
     "static/media/VictorGloverImage.png": "/project-page/static/media/VictorGloverImage.8a9a5424588b73ec61c2.png",
@@ -56,14 +56,16 @@
     "static/media/icon-online.svg": "/project-page/static/media/icon-online.b0622b15741418e9efe3.svg",
     "index.html": "/project-page/index.html",
     "static/media/icon-error.svg": "/project-page/static/media/icon-error.a46cc66573dea1a15acb.svg",
+    "static/media/icon-close.svg": "/project-page/static/media/icon-close.c2e36e0469b3b1e6c273.svg",
+    "static/media/icon-hamburger.svg": "/project-page/static/media/icon-hamburger.b0d311feac968ee5feab.svg",
     "static/media/icon-arrow.svg": "/project-page/static/media/icon-arrow.6a77471d7b7f9b4d136e.svg",
     "static/media/icon-arraw-close.svg": "/project-page/static/media/icon-arraw-close.b27c7121c3b84d48c361.svg",
-    "main.34b8ad8d.css.map": "/project-page/static/css/main.34b8ad8d.css.map",
-    "main.0a6fe9c7.js.map": "/project-page/static/js/main.0a6fe9c7.js.map",
+    "main.c6b406e9.css.map": "/project-page/static/css/main.c6b406e9.css.map",
+    "main.d0416df7.js.map": "/project-page/static/js/main.d0416df7.js.map",
     "787.28cb0dcd.chunk.js.map": "/project-page/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34b8ad8d.css",
-    "static/js/main.0a6fe9c7.js"
+    "static/css/main.c6b406e9.css",
+    "static/js/main.d0416df7.js"
   ]
 }
