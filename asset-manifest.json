@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-page/static/css/main.9898720d.css",
-    "main.js": "/project-page/static/js/main.d33f511d.js",
+    "main.css": "/project-page/static/css/main.922e3502.css",
+    "main.js": "/project-page/static/js/main.4c283408.js",
     "static/js/787.28cb0dcd.chunk.js": "/project-page/static/js/787.28cb0dcd.chunk.js",
     "static/media/snorlax2.png": "/project-page/static/media/snorlax2.3a99eb25b2caa26992c0.png",
     "static/media/VictorGloverImage.png": "/project-page/static/media/VictorGloverImage.8a9a5424588b73ec61c2.png",
@@ -43,6 +43,7 @@
     "static/media/background-home-mobile.jpg": "/project-page/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
     "static/media/stars1.png": "/project-page/static/media/stars1.c8124d042d0a057b14f7.png",
     "static/media/background-technology-tablet.jpg": "/project-page/static/media/background-technology-tablet.48c38b028217ee0096c4.jpg",
+    "static/media/illustration-working.svg": "/project-page/static/media/illustration-working.c9b5ef5452363d8be3df.svg",
     "static/media/image-launch-vehicle-landscape.jpg": "/project-page/static/media/image-launch-vehicle-landscape.4281a59ff7186488fe6a.jpg",
     "static/media/mobile-image-hero-1.jpg": "/project-page/static/media/mobile-image-hero-1.5de3d1472db703fb2f8a.jpg",
     "static/media/background-destination-mobile.jpg": "/project-page/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
@@ -62,6 +63,10 @@
     "static/media/bg-intro-mobile.svg": "/project-page/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
     "static/media/icon-online.svg": "/project-page/static/media/icon-online.b0622b15741418e9efe3.svg",
     "index.html": "/project-page/index.html",
+    "static/media/bg-boost-desktop.svg": "/project-page/static/media/bg-boost-desktop.772154c9b0e451733f5e.svg",
+    "static/media/bg-boost-mobile.svg": "/project-page/static/media/bg-boost-mobile.4b04bd89ea775da3deff.svg",
+    "static/media/bg-shorten-desktop.svg": "/project-page/static/media/bg-shorten-desktop.0d9742f433f4b0d8752b.svg",
+    "static/media/bg-shorten-mobile.svg": "/project-page/static/media/bg-shorten-mobile.41c34b33a14a3077e506.svg",
     "static/media/icon-error.svg": "/project-page/static/media/icon-error.a46cc66573dea1a15acb.svg",
     "static/media/icon-close.svg": "/project-page/static/media/icon-close.c2e36e0469b3b1e6c273.svg",
     "static/media/icon-hamburger.svg": "/project-page/static/media/icon-hamburger.b0d311feac968ee5feab.svg",
@@ -69,12 +74,12 @@
     "static/media/icon-angle-right.svg": "/project-page/static/media/icon-angle-right.0ed3f81fbd14b3bd61d8.svg",
     "static/media/icon-arrow.svg": "/project-page/static/media/icon-arrow.6a77471d7b7f9b4d136e.svg",
     "static/media/icon-arraw-close.svg": "/project-page/static/media/icon-arraw-close.b27c7121c3b84d48c361.svg",
-    "main.9898720d.css.map": "/project-page/static/css/main.9898720d.css.map",
-    "main.d33f511d.js.map": "/project-page/static/js/main.d33f511d.js.map",
+    "main.922e3502.css.map": "/project-page/static/css/main.922e3502.css.map",
+    "main.4c283408.js.map": "/project-page/static/js/main.4c283408.js.map",
     "787.28cb0dcd.chunk.js.map": "/project-page/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9898720d.css",
-    "static/js/main.d33f511d.js"
+    "static/css/main.922e3502.css",
+    "static/js/main.4c283408.js"
   ]
 }
