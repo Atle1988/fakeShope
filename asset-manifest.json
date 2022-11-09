@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/project-page/static/css/main.539bf6df.css",
+    "main.css": "/project-page/static/css/main.ad94539f.css",
     "main.js": "/project-page/static/js/main.bd8d9a32.js",
     "static/js/787.28cb0dcd.chunk.js": "/project-page/static/js/787.28cb0dcd.chunk.js",
     "static/media/snorlax2.png": "/project-page/static/media/snorlax2.3a99eb25b2caa26992c0.png",
@@ -98,12 +98,12 @@
     "static/media/icon-angle-right.svg": "/project-page/static/media/icon-angle-right.0ed3f81fbd14b3bd61d8.svg",
     "static/media/icon-arrow.svg": "/project-page/static/media/icon-arrow.6a77471d7b7f9b4d136e.svg",
     "static/media/icon-arraw-close.svg": "/project-page/static/media/icon-arraw-close.b27c7121c3b84d48c361.svg",
-    "main.539bf6df.css.map": "/project-page/static/css/main.539bf6df.css.map",
+    "main.ad94539f.css.map": "/project-page/static/css/main.ad94539f.css.map",
     "main.bd8d9a32.js.map": "/project-page/static/js/main.bd8d9a32.js.map",
     "787.28cb0dcd.chunk.js.map": "/project-page/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.539bf6df.css",
+    "static/css/main.ad94539f.css",
     "static/js/main.bd8d9a32.js"
   ]
 }
